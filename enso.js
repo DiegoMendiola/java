@@ -39,7 +39,7 @@ d3.json("http://api.geonames.org/citiesJSON?north=44.1&south=-9.9&east=-22.4&wes
 
 d3.select("svg")
 .selectAll("rect")
-.data([100,150,200])
+.data(lay)
 .enter()
 .append("rect")
 
@@ -62,6 +62,3 @@ d3.select("svg")
 //Funciones basicas
 parseInt("77");
 parseFloat("3.14");
-
-
-
